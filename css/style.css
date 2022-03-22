@@ -406,6 +406,11 @@ img {
   color: var(--text-color-light); 
 }
 
+.skills_list {
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+}
+
 .skills__arrow {
   margin-left: auto; 
   transition: .4s;
@@ -454,6 +459,36 @@ img {
 .skills__percentage {
   display: block;
   background-color: var(--first-color);
+}
+
+.skills__html {
+  width: 90%;
+}
+
+.skills__css {
+  width: 80%;
+}
+
+.skills__js {
+  width: 50%;
+}
+
+.skills__figma {
+  width: 80%;
+}
+
+.skills__close .skills__list {
+  height : 0; 
+  overflow: hidden; 
+}
+
+.skills__open .skills__list {
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow {
+  transform: rotate(-180deg); 
 }
 
 
