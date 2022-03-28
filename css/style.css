@@ -193,6 +193,10 @@ img {
   font-weight: var(--font-medium);
 }
 
+.nav__logo {
+  width: 70px;
+}
+
 .nav__logo:hover {
   color: var(--first-color);
 }
@@ -301,7 +305,7 @@ img {
   fill: var(--first-color); 
 }
 
-.home_blob-img{
+.home__blob-img{
   width: 170px;
 }
 
