@@ -573,6 +573,14 @@ img {
 
 
 /*==================== QUALIFICATION ====================*/
+.qualification__img {
+    width: 400px; 
+    border-radius: .5rem; 
+    justify-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 
 /*==================== SERVICES ====================*/
